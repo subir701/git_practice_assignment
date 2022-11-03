@@ -7,8 +7,9 @@ function prime(n){
     }
     if(counter==1){
         return true;
+
     }else{
-        return false;
+        console.log("It is not a prime number");
     }
 }
 prime(13)
